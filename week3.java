@@ -25,28 +25,7 @@ public class Week3 {
  
     System.out.println("\n\n----------------INTERMEDIATE----------------");
     
-        System.out.println("========== LOGIN ==========");
-
-        System.out.print("Enter username: ");
-        String user = input.nextLine();
-
-        System.out.print("Enter password: ");
-        String password = input.nextLine();
-
-        if (user.equals("cein.agtrp")) {
-
-            if (password.equals("Css@12345")) {
-                System.out.println("Login successful!");
-            } else {
-                System.out.println("Login failed: Incorrect username or password.");
-            }
-
-        } else {
-            System.out.println("Login failed: Incorrect username or password.");
-        }
-    System.out.println("\n\n------------------ADVANCED------------------");
-    
-    System.out.print("Enter purchase amount: ");
+ System.out.print("Enter purchase amount: ");
     double amount = input.nextDouble();
     input.nextLine();
         
@@ -74,6 +53,28 @@ public class Week3 {
     System.out.printf("Purchase Amount: %.2f%n", amount);
     System.out.printf("Discount Amount: %.2f%n", discounted);
     System.out.printf("Final Discounted Price: %.2f%n", price);
+    
+    System.out.println("\n\n------------------ADVANCED------------------");
+
+        System.out.println("========== LOGIN ==========");
+
+        System.out.print("Enter username: ");
+        String user = input.nextLine();
+
+        System.out.print("Enter password: ");
+        String password = input.nextLine();
+
+        if (user.equals("cein.agtrp")) {
+
+            if (password.equals("Css@12345")) {
+                System.out.println("Login successful!");
+            } else {
+                System.out.println("Login failed: Incorrect username or password.");
+            }
+
+        } else {
+            System.out.println("Login failed: Incorrect username or password.");
+        }
 
 
     System.out.println("\n\n-------------------EXPERT-------=-----------");
